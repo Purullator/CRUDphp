@@ -1,0 +1,70 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.flex1 {
+  flex: 1;
+}
+.flex2 {
+  flex: 2;
+}
+.flex3 {
+  flex: 3;
+}
+.flex4 {
+  flex: 4;
+}
+.flex5 {
+  flex: 5;
+}
+.flex6 {
+  flex: 6;
+}
+
+.col:hover {
+  background-color: gray;
+  transition: 1s all;
+  cursor: pointer;
+}
+.tableHead {
+  text-transform: capitalize;
+}
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+  margin: 3%;
+}
+.newLibro {
+  padding: 10px;
+  text-align: left;
+  font-size: 1.2rem;
+  margin-left: 30%;
+  margin-top: 4%;
+}
+.newLibro label {
+  padding: 15px;
+  min-width: 170px;
+  display: inline-block;
+}
+nav a {
+  display: inline-block;
+  color: black;
+  text-decoration: none;
+  padding: 5px;
+}
+nav a:hover {
+  color: gray;
+  transition: all 1s;
+}
+.btns a {
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+  padding: 5px;
+}
+.btns a:hover {
+  color: gray;
+  transition: all 1s;
+}
